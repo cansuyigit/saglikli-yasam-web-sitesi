@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+*{ /*tüm etiketler için geçerli özellik*/
+    margin: 0;
+    padding: 0;
+    box-sizing: broder-box;
+    border: 0;
+}
+@media screen and (max-width: 768px){
+    [class*="col-"]{width: 100%;}
+    #anasayfa{
+        background-image: url(resimler/hurma.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        max-width: 100%;
+        height: auto;
+    }
+    #h1yazi{
+        max-width: 100%;
+        height: auto;
+    } 
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    /* padding: 0; */
+}
+a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #303604;
+    font-weight: bold;
+    font-size: 17px; 
+}
+#menu{
+    height: 80px;
+    padding: 0px 10px ; /* 20px */
+    /* width: 100%;
+    position: sticky;
+    top: 50px;
+    */
+}
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #303604;
+    float: left;
+    padding-left: 10px;
+     /* margin-left: 7px;
+    font-family: 'Times New Roman', Times, serif; */
+}
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #303604;
+}
+nav a:hover{
+    border-bottom: 2px solid #303604;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #303604;
+}
+#anasayfa{
+    background-color: grey;
+    height: 600px;
+    background-image: url(resimler/hurma.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed; 
+}
+#black{
+    height: 600px;
+    opacity: 0.5;
+}
+.icerik{
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    color: #303604;
+    font-size: small;
+}
+.container1 {
+    width: 96%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(252, 136, 3);
+}
+ul{
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding: 0px 100px 0px 118px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#h1yazi{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 6rem; 
+    font-weight: 90;
+    line-height:0.4 ; /*satır boşluğu için kullandığımız bir kod*/
+    letter-spacing: 2px; /*harfler arası boşluk için kullandığımız boşluk*/
+    font-family: 'Dancing Script', cursive;
+    color: #303604;
+}
+p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0px 100px 0px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: #000000;
+    line-height: 1.6;
+    padding: 0px 100px 0px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#baslik{
+    color: #000000;
+    line-height: 1.6;
+    padding: 0px 100px 0px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    color: #000000;
+    line-height: 1.6;
+    padding: 0px 100px 0px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ /* #diyet2{
+    max-width: 520px;
+    height: 340px;
+    margin-left: 100px;
+}
+#salata{
+    max-width: 520px;
+    height: 340px;
+    margin-right: 100px;
+}
+#egzersiz2{
+    max-width: 520px;
+    max-height: 340px;
+    margin-left: 100px;
+}
+#egzersiz{
+    max-width: 520px;
+    height: 340px;
+    margin-right: 100px;
+} */
+swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+swiper-slide img {
+    display: block;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+footer{
+    text-align: center;
+}
